@@ -1,12 +1,26 @@
-# React + Vite
+# README - Idan Bahar <3
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## איך מריצים את הפרויקט?
 
-Currently, two official plugins are available:
+1. npm install
+2. npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## באיזו שיטה השתמשתי לציור משולש?
 
-## Expanding the ESLint configuration
+זו פעם ראשונה שאני עובד עם ציור ב-JS וחיפוש באינטרנט ראיתי ש-SVG זה כלי פשוט והחלטתי ללכת על זה.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## כיצד חישבתי את ערך הזוויות?
+
+לא חישבתי ערך זוויתי בתרגיל.
+
+## מה היה מאתגר בתרגיל?
+
+חישוב ערך זוויתי, ואם לא אתייחס לזה, אז שימוש ב-SVG.
+
+## האם יש משהו שלא הצלחתי לפתור?
+
+לא הצלחתי לפתור ערך זוויתי. החלטתי לסיים את התרגיל ככה מאשר לשלוח משהו לא מוכן.
+
+## האם השתמשתי בעזרים חיצוניים (כולל AI)?
+
+אכן כן, השתמשתי ב-AI כדי לייצר boilerplate מהסיבה שלא רציתי לבזבז זמן. בנוסף, השתמשתי בו גם כדי להיות מוכוון בתקלות שקרו לי תוך כדי.
