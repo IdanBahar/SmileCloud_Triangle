@@ -10,7 +10,19 @@ export function TrianglePage({ points }) {
       <svg width='800' height='800' style={{ border: '1px solid #ddd' }}>
         <polygon points={polyPoints} fill='lightblue' stroke='black' />
         {points.map((p, i) => (
-          <circle key={i} cx={p.x} cy={p.y} r='4' fill='blue' />
+          <g key={i}>
+            <circle cx={p.x} cy={p.y} r='4' fill='blue' />
+            <text
+              x={p.x + 10}
+              y={p.y - 10}
+              fontSize='20'
+              fill='black'
+              fontFamily='Arial'
+              alignmentBaseline='middle'
+            >
+              {`(${p.x}, ${p.y})`}
+            </text>
+          </g>
         ))}
       </svg>
     </div>
